@@ -1,0 +1,14 @@
+// SimpleScript.groovy
+
+// Define a function
+def greet(name) {
+    return "Hello, ${name}!"
+}
+
+// Create a list of names
+def names = ['Alice', 'Bob', 'Charlie']
+
+// Greet each name
+names.each { name ->
+    println greet(name)
+}
